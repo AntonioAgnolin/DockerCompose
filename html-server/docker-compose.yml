@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  node-server:
+    image: antonioagnolin/node-server:latest
+    ports:
+      - "3001:3001"
+  
+  html-server:
+    image: antonioagnolin/html-server:latest
+    ports:
+      - "80:80"
